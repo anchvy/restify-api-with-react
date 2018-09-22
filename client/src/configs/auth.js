@@ -1,0 +1,2 @@
+export const AUTH_COOKIE_KEY = 'ASSIGNMENT_AUTHTOKEN'
+export const AUTH_EXPIRE_IN = 1

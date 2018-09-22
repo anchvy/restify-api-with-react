@@ -1,0 +1,8 @@
+const DEFAULT_SPACE = 8
+
+export const SPACING = {
+  XS: DEFAULT_SPACE,
+  SM: DEFAULT_SPACE * 2,
+  MD: DEFAULT_SPACE * 3,
+  LG: DEFAULT_SPACE * 4,
+}

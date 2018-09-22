@@ -1,0 +1,45 @@
+{
+    "name": "api",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@sendgrid/mail": "^6.3.1",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-jest": "^23.4.2",
+        "babel-plugin-module-resolver": "^3.1.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "bluebird": "^3.5.2",
+        "dotenv": "^6.0.0",
+        "jsonwebtoken": "^8.3.0",
+        "lodash": "^4.17.11",
+        "md5": "^2.2.1",
+        "pg-promise": "^8.4.6",
+        "restify": "^7.2.1",
+        "restify-cors-middleware": "^1.1.1",
+        "restify-errors": "^6.1.1",
+        "restify-jwt-community": "^1.0.7"
+    },
+    "devDependencies": {
+        "babel-plugin-lodash": "^3.3.4",
+        "eslint": "^5.4.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^3.0.1",
+        "eslint-import-resolver-babel-module": "^4.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jest": "^21.22.0",
+        "eslint-plugin-prettier": "^2.6.2",
+        "eslint-plugin-security": "^1.4.0",
+        "jest": "^23.5.0",
+        "lint-staged": "^7.2.2",
+        "nodemon": "^1.18.3",
+        "prettier": "^1.14.2"
+    },
+    "scripts": {
+        "dev": "nodemon ./src/app.js --exec babel-node",
+        "test": "jest ./src",
+        "test:watch": "jest --watch ./src",
+        "lint": "eslint ./src"
+    }
+}
